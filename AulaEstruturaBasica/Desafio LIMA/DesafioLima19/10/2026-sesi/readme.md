@@ -1,0 +1,1 @@
+Pois a cor azul passa uma visão masi limpa e suave, mais tranquila, causa menas fadiga vizual e também pq é muito bonito e combina com cores claras muito bem!

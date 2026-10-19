@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        div {
+
+            text-align: center;
+            background-color: #205d9c;
+        }
+
+        a:link {
+            color: aqua;
+        }
+
+        a:visited {
+            color: aqua;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header style="background-color: #205d9c ; color:white; margin-bottom: 30px; text-align: center; height: 100px ;">
+        <div>
+            <br>
+            <h1>
+                Responda o Formulario Para se Inscrever no Curso
+            </h1>
+            <a href="index.html " target="_blank">VOLTAR</a>
+        </div>
+
+    </header>
+    <section style="margin-left: 300px ;">
+        <div style="width: 700px; color:#fff ;">
+            <br>
+            <h1>Formulário</h1><br>
+            <hr>
+            <form action="cadastro.php" method="post" style=" margin-top: 15px;">
+                <label>Nome</label><br>
+                <input type="text" name="nome" placeholder="Digite seu nome" required><br><br>
+                <label>Email</label><br>
+                <input type="email" name="email" placeholder="Digite seu email" required><br><br>
+                <label>Telefone</label><br>
+                <input type="tel" name="telefone" placeholder="(00) 0000-0000" required><br><br>
+                <label>Qual seu interesse para fazer esse curso ?</label><br>
+                <textarea name="bio" rows="10" cols="70" placeholder="Conte-nos sobre você"></textarea><br><br>
+                <label>Sexo</label><br>
+                <input type="radio" name="sexo" value="M">Masculino
+                <input type="radio" name="sexo" value="F">Feminino
+                <button type="submit" value="Enviar">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
