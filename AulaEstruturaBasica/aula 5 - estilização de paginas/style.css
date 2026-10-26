@@ -1,0 +1,92 @@
+
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+.destaque {
+  color: darkturquoise;
+  font-weight: bold;
+}
+#titulo-principal {
+  color: red;
+  text-align: center;
+}
+p{
+   font-size: 18px;
+   line-height: 1.5
+   ;
+}
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: paleturquoise;
+
+}
+#lorem{
+    color:blue;
+    font: size 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+img {
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    display:block;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+table,td,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 10px;
+}
+th {
+    background-color: lightblue;
+}
+table {
+    width: 300px;
+    height: 400px;
+}
+.tabelainterna th {
+    background-color: blueviolet;
+    color: snow;
+}
+body {
+    background-color: black;
+}
+
+h1 {
+    color: hotpink;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+a:active {
+    color: orange;
+}

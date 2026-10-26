@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    width: 100px;
+}
+a{ 
+    display: block;
+    color: #fff;
+    padding: 14px 20px; 
+    text-decoration: none;
+}
+a:hover {
+    background-color: azure;
+    color: #000;
+}
+
