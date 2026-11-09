@@ -1,0 +1,100 @@
+/* ==========================================
+   1. CONFIGURAÇÕES GERAIS E RESET
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   2. ESTRUTURA PRINCIPAL (LAYOUT)
+   ========================================== */
+header {
+    background-color: rgb(60, 0, 255);
+    height: 150px;
+}
+
+main {
+    margin: -20px;
+    background-color: rgb(148, 211, 237);
+}
+
+/* ==========================================
+   3. ELEMENTOS DE CABEÇALHO E NAVEGAÇÃO
+   ========================================== */
+.titulo {
+    display: flex;
+    width: auto;
+    margin-left:450px;
+    padding-top: 45px;
+}
+
+.menu {
+    margin-top: -75px;
+    display: flex;
+    margin-left: 1000px;
+}
+
+#menu {
+    inline-size: 100%;
+    list-style: none;
+}
+
+#linkmenu {
+    display: block;
+    color: #000;
+    padding: 14px 20px; 
+    text-decoration: none;
+}
+
+/* ==========================================
+   4. IMAGENS E BANNERS
+   ========================================== */
+#Banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#banner {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+
+img {
+    margin: 30px;
+    max-width: 400px;
+    height: auto;
+}
+
+/* ==========================================
+   5. SEÇÕES DE CONTEÚDO (SOBRE, LOCALIZAÇÃO E CONTATO)
+   ========================================== */
+#Sobre {
+    text-align: center;
+    border-radius: 15px;
+    margin: 30px;
+    background-color: rgb(0, 179, 255);
+    padding: 20px;
+}
+
+#Localizacao {
+    text-align: justify;
+    border-radius: 15px;
+    margin: 30px;
+    background-color: rgb(0, 179, 255);
+    padding: 20px;
+}
+
+#loc {
+    list-style: none;
+}
+
+#contato {
+    text-align: justify;
+    border-radius: 15px;
+    margin: 30px;
+    background-color: rgb(0, 179, 255);
+    padding: 20px;
+}
