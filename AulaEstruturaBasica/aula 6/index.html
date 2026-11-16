@@ -10,12 +10,16 @@
             border: 5px solid black;
             width: 400px;
             height: 400px;
+            position: relative;
+            float: right;
         }
 
         img {
+            position:fixed;
             width: 100px;
             height: 100px;
             background-color: dodgerblue;
+            left: 50px;
         }
 
         span {
@@ -25,9 +29,13 @@
 
         .item1 {
             display: inline-block;
+            position: relative;
             width: 150px;
             height: 150px;
-            background-color: rgba(0, 0, 255);
+            left : 30px;
+            top: 20px;
+           background-color: rgba(0, 0, 255);
+           z-index: 1;
         }
 
         .item2 {
@@ -35,6 +43,9 @@
             width: 150px;
             height: 150px;
             background-color: rgba(255, 0, 0);
+            position: absolute;
+            right: 0px;
+            z-index: 2;
         }
     </style>
 </head>

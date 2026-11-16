@@ -1,0 +1,168 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-top:40px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+.container-flex{
+    display: flex;
+    background-color: purple;
+    gap: 10px;
+}
+
+.item-flex{
+    background-color: orange;
+    padding: 20px;
+
+}
+
+.direcao-linha{
+    flex-direction: row;
+
+}
+
+.direcao-coluna{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.justificar-inicio{
+    justify-content: flex-start;
+}
+
+.justificar-fim{
+    justify-content: end;
+}
+
+.justificar-centro{
+    justify-content: center;
+}
+
+.justificar-space-between{
+    justify-content: space-between;
+}
+
+.justificar-space-around{
+    justify-content: space-around;
+}
+
+.justificar-space-evenly{
+    justify-content: space-evenly;
+}
+
+.alinhar-items .container-flex{
+    height: 300px;
+}
+
+.alinhar-stretch{
+    align-items: stretch;
+}
+
+.alinhar-inicio{
+    align-items: start;
+}
+
+.alinhar-fim{
+    align-items: end;
+}
+
+.alinhar-centro{
+    align-items: center;
+}
+
+.alinhar-baseline{
+    align-items: baseline;
+}
+
+.alinhar-conteudo{
+    align-content:space-evenly;
+    height: 600px;
+}
+
+.alinhar-conteudo .caixa{
+    flex: 0 0 30%;
+}
+
+.caixa{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.ordem1 {
+    order: 1
+}
+.ordem2 {
+    order: 2
+}
+.ordem3 {
+    order: 3
+}
+
+.exemplo-grow .item-flex {
+    flex-basis: 100px;
+}
+
+.crecer1 {
+    flex-grow: 1;
+}
+.crecer2 {
+    flex-grow: 2;
+}
+
+.alinhar-items-individuais .container-flex{
+    height: 300px;
+}
+
+.self-inicio{
+    align-self: start;
+}
+
+.self-centro{
+    align-self: center;
+}
+
+.self-fim{
+    align-self: end;
+}
+
+.menu-nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.responsivo {
+    flex-wrap: wrap;
+}
